@@ -14,16 +14,16 @@ class tests{
 public class Main {
 
     public  static void main(String[] args) {
-        //double x=1;
-        //double y=2;
-        //for (Operation operation : Operation.values()){
-        //    System.out.print( x  );
-        //    System.out.print( operation );
-        //    System.out.print( y );
-        //    System.out.println("=" + operation.apply(x,y));
-        //}
-        //Operation op = Operation.PLUS;
-        //System.out.println(op.apply(1,2));
+        double x=1;
+        double y=2;
+        for (Operation operation : Operation.values()){
+            System.out.print( x  );
+            System.out.print( operation );
+            System.out.print( y );
+            System.out.println("=" + operation.apply(x,y));
+        }
+        Operation op = Operation.PLUS;
+        System.out.println(op.apply(1,2));
         System.out.println(Week.THU.value);
     }
 }
